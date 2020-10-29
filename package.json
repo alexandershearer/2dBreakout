@@ -1,16 +1,24 @@
 {
-  "name": "testeslint",
+  "name": "2dBreakout",
   "version": "1.0.0",
+  "description": "",
   "main": "test.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandershearer/2dBreakout.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "bugs": {
+    "url": "https://github.com/alexandershearer/2dBreakout/issues"
+  },
+  "homepage": "https://github.com/alexandershearer/2dBreakout#readme",
   "devDependencies": {
-    "eslint": "^7.12.0",
+    "eslint": "^7.12.1",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.1"
   }
