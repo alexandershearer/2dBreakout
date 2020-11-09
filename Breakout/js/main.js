@@ -63,7 +63,7 @@ function collisionDetection() {
                     ball.dy = -ball.dy;
                     b.status = 0;
                     score.increaseScore();
-                    if (score === brickRowCount * brickColumnCount) {
+                    if (score.score === (brickRowCount * brickColumnCount)) {
                         alert('YOU WIN, CONGRATULATIONS!');
                         document.location.reload();
                     }

@@ -1,11 +1,11 @@
 class Paddle {
-    constructor(canvas, x, y, width, height, color = '#fc6203') {
-        this.x = x
-        this.y = y
-        this.width = width
-        this.height = height
-        this.color = color
+    constructor(canvas, width, height, color = '#fc6203') {
         this.canvas = canvas
+        this.width = 75
+        this.height = 10
+        this.x = (this.canvas.width - this.width) / 2
+        this.y = this.canvas.height - this.height
+        this.color = color
     }
 
     render(ctx) {
